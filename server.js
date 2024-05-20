@@ -201,7 +201,7 @@ const app = express();
 require('dotenv').config();
 const db = require('./db'); // Ensure db.js properly connects to MongoDB
 const MenuItem = require('./models/MenuItem');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 
